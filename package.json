@@ -1,0 +1,12 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Furkansegmenn/Chatles.git",
+  "author": "Furkansegmenn <segmenfurkann@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn --cwd frontend install && yarn --cwd frontend build",
+    "start": "yarn --cwd backend start"
+  }
+}
