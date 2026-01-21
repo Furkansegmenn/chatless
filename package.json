@@ -6,7 +6,7 @@
   "author": "Furkansegmenn <segmenfurkann@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn --cwd frontend install && yarn --cwd frontend build",
-    "start": "yarn --cwd backend start"
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
   }
 }
